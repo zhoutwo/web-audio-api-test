@@ -1,0 +1,1 @@
+export const ACQUIRE_PERMISSION_RETRIES = 3;
