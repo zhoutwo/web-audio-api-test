@@ -3,11 +3,11 @@ import React, { useRef } from 'react';
 import getMediaService from './services/media';
 
 import './App.css';
-import { BaseMediaService } from './services/media/base-media-service';
+import { ChromiumMediaService } from './services/media/chromium-media-service';
 
 function App() {
   const oscillatorRef = useRef<OscillatorNode>();
-  const mediaServiceRef = useRef<BaseMediaService>();
+  const mediaServiceRef = useRef<ChromiumMediaService>();
 
   return (
     <div className="App">
